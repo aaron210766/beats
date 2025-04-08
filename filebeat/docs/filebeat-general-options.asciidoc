@@ -1,17 +1,17 @@
 [[configuration-general-options]]
 == Configure general settings
 
-++++
-<titleabbrev>General settings</titleabbrev>
-++++
+
+titleabbrev>General settings/titleabbrev
+
 
 You can specify settings in the +{beatname_lc}.yml+ config file to control the
 general behavior of {beatname_uc}. This includes:
 
-* <<configuration-global-options,Global options>> that control things like
-publisher behavior and the location of some files.
+configuration-global-options,Global options that control things like
+publisher behavior and the location  some files.
 
-* <<configuration-general,General options>> that are supported by all Elastic
+configuration-general,General options that are supported by all Elastic
 Beats.
 
 [float]
@@ -47,8 +47,8 @@ This option is not supported on Windows.
 
 Examples:
 
-* 0640: give read and write access to the file owner, and read access to members of the group associated with the file.
-* 0600: give read and write access to the file owner, and no access to all others.
+0640: give read and write access to the file owner, and read access to members of the group associated with the file.
+0600: give read and write access to the file owner, and no access to all others.
 
 [source,yaml]
 -------------------------------------------------------------------------------------
